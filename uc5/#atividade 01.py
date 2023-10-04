@@ -6,7 +6,7 @@ contatos = {
 
 # 01. Acessar as informações de contato de uma pessoa específica a partir do dicionário "contatos".
 
-contato_usuario = 'eloiza'
+contato_usuario = input ("digite o nome da pessoa.")
 if contato_usuario in contatos:
     contato_eloiza = contatos[contato_usuario]
     telefone_eloiza = contato_eloiza['telefone']
